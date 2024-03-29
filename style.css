@@ -1,12 +1,33 @@
+@font-face {
+    font-family: "makina";
+    src: url('./font/Machina\ Inktrap\ Medium.woff');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body[theme="black"]{
     background: #000;
+}
+body[theme="black"] .section{
+    color: #fff;
 }
 body[theme="salmon"]{
     background: salmon;
 }
+body[theme="salmon"] .section{
+    color: #79251c;
+}
 body[theme="white"]{
     background: #fff;
 }
+body[theme="white"] .section{
+    color: #000;
+}
 body[theme="cyan"]{
     background: cyan;
+}
+body[theme="cyan"] .section{
+    color: #465A5A;
 }
