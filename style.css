@@ -2,6 +2,9 @@
     font-family: "makina";
     src: url('./font/Machina\ Inktrap\ Medium.woff');
 }
+*::selection{
+    background: salmon;
+}
 *{
     margin: 0;
     padding: 0;
